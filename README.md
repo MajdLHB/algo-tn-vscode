@@ -1,6 +1,12 @@
-# Algorithme en Pseudocode
+# Algorithme TN — Exécuteur & Tableaux
 
-[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/les-profs-d-info.algorithme-tn)](https://marketplace.visualstudio.com/items?itemName=les-profs-d-info.algorithme-tn)
+> **Fork de [algorithme-tn](https://github.com/romoez/algo-tn-vscode) créé par
+> _les-profs-d-info_ (Communauté Tunisienne des Enseignants d'Informatique).**
+> Cette version ajoute l'**exécution** des fichiers `.algo`, un **traducteur
+> vers Python** et un **éditeur de tableaux de déclaration**. Elle conserve
+> toute la coloration syntaxique et les snippets de l'extension d'origine, et
+> reste distribuée sous la même licence **GPL-3.0**. Tout le mérite du travail
+> original revient à ses auteurs — voir la section _Crédits_ ci-dessous.
 
 _A VSCode extension offering syntax highlighting and snippets for French pseudocode, tailored for the Tunisian high school curriculum._
 
@@ -304,3 +310,20 @@ L'extension fournit des **descriptions détaillées** pour tous les éléments d
 ### 0.0.1
 
 -   Version initiale avec coloration et snippets de la syntaxe du pseudocode utilisé pour écrire les algorithmes.
+
+## Crédits & Licence
+
+Cette extension est un **fork** de
+[**algorithme-tn**](https://github.com/romoez/algo-tn-vscode)
+([Marketplace](https://marketplace.visualstudio.com/items?itemName=les-profs-d-info.algorithme-tn)),
+créé par **les-profs-d-info** (Communauté Tunisienne des Enseignants
+d'Informatique). La coloration syntaxique, les snippets et la définition du
+langage proviennent de leur travail.
+
+**Ajouts de ce fork** (Majd Lahbib) : exécution des `.algo` en Python
+(bouton ▶ / F5), traducteur `.algo → .py`, éditeur de tableaux de déclaration,
+vérification des types, et le transpileur [`tools/algotn.py`](tools/algotn.py).
+
+Distribué sous licence **GNU GPL-3.0**, comme l'original (voir
+[`LICENSE`](LICENSE)). Les modifications sont décrites dans le
+[`CHANGELOG`](CHANGELOG.md) et l'historique Git.
